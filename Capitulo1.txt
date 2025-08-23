@@ -1,0 +1,18 @@
+Capítulo 1. Introdução
+
+Conteúdo
+	Seção 1.1 Escrevendo um Programa C++ Simples
+	Seção 1.2 Um Primeiro Olhar na Entrada/Saída
+	Seção 1.3 Uma Palavra sobre Comentários
+	Seção 1.4 Fluxo de Controle
+	Seção 1.5 Apresentando Classes
+	Seção 1.6 O Programa da Livraria
+	Resumo do Capítulo
+	Termos Definidos
+
+Este capítulo apresenta os elementos básicos do C++: tipos, variáveis, expressões, instruções e funções. Ao longo do 
+caminho, explicaremos brevemente como compilar e executar um programa.
+
+Depois de ler este capítulo e fazer os exercícios, você será capaz de escrever, compilar e executar programas simples. Nos 
+capítulos posteriores assumiremos que você pode usar os recursos apresentados neste capítulo e explicaremos esses 
+recursos com mais detalhes.
