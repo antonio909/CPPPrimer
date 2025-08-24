@@ -1,4 +1,4 @@
-Capítulo 1. Introdução
+Capítulo 1. INTRODUÇÃO
 
 Conteúdo
 	Seção 1.1 Escrevendo um Programa C++ Simples
@@ -39,3 +39,8 @@ Embora ainda não tenhamos projetado nosso programa, é fácil ver que ele deve:
 	• Usar uma estrutura de dados para armazenar dados;
 	• Testar se dois registros têm o mesmo ISBN;
 	• Contém um loop que processará todos os registros no arquivo de transação.
+
+Começaremos revisando como resolver esses pequenos problemas em C++ e então iremos escrever nosso programa para a 
+livraria.
+
+1.1 Escrevendo um Programa C++ Simples
