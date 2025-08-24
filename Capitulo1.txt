@@ -44,3 +44,27 @@ Começaremos revisando como resolver esses pequenos problemas em C++ e então ir
 livraria.
 
 1.1 Escrevendo um Programa C++ Simples
+
+Todo programa C++ contém uma ou mais funções, uma das quais deve ser nomeada de main. O sistema operacional 
+executa um programa C++ chamando main. Aqui está uma versão simples de main que não faz nada além de retornar um 
+valor ao sistema operacional:
+
+int main()
+{
+	return 0;
+}
+
+Uma definição de função tem quatro elementos: um tipo de retorno, um nome de função, uma lista de parâmetros 
+(possivelmente vazia) entre parênteses e um corpo de função. Embora main seja especial em alguns aspectos, definimos 
+main da mesma forma que definimos qualquer outra função.
+
+Neste exemplo, main tem uma lista vazia de parâmetros (mostrada por () sem nada dentro). 6.2.5 discutirá os outros tipos 
+de parâmetros que podemos definir para main.
+
+A função main precisa ter um tipo de retorno int, que é um tipo que representa números inteiros. O tipo int é um tipo interno, o que significa que é um dos tipos que a linguagem define.
+
+A parte final de uma definição de função, o corpo da função, é um bloco de instruções que começa com uma chave de abertura e termina com uma chave de fechamento:
+
+{
+	return 0;
+}
