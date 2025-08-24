@@ -16,3 +16,26 @@ caminho, explicaremos brevemente como compilar e executar um programa.
 Depois de ler este capítulo e fazer os exercícios, você será capaz de escrever, compilar e executar programas simples. Nos 
 capítulos posteriores assumiremos que você pode usar os recursos apresentados neste capítulo e explicaremos esses 
 recursos com mais detalhes.
+
+A maneira de aprender uma nova linguagem de programação é escrevendo programas. Neste capítulo, escreveremos um 
+programa para solucionar um problema simples para uma livraria.
+
+Nossa loja mantém um arquivo de transações, cada uma das quais registra a venda de uma ou mais cópias de um único 
+livro. Cada transação contém três elementos:
+
+0-201-70353-X 4 24.99
+
+O primeiro elemento é o ISBN (Insternational Standard Book Number, um identificador único de livro), o segundo é o número 
+de cópias vendidas e o último é o preço pelo qual cada uma dessas cópias foi vendida. De tempos em tempos, o dono da 
+livraria lê esse arquivo e, para cada livro, calcula o número de cópias vendidas, a receita total daquele livro e o preço médio 
+de venda.
+
+Para poder escrever este programa, precisamos conhecer alguns recursos básicos do C++. Além disso, precisaremos saber 
+como compilar e executar um programa.
+
+Embora ainda não tenhamos projetado nosso programa, é fácil ver que ele deve:
+	• Definir variáveis;
+	• Definir entrada e saída;
+	• Usar uma estrutura de dados para armazenar dados;
+	• Testar se dois registros têm o mesmo ISBN;
+	• Contém um loop que processará todos os registros no arquivo de transação.
